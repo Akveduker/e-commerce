@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.c40b69d4.css",
+    "main.js": "/e-commerce/static/js/main.0aeb9e52.js",
+    "static/media/prouct-img-page.jpg": "/e-commerce/static/media/prouct-img-page.a80deae111e20a154195.jpg",
+    "static/media/banner.png": "/e-commerce/static/media/banner.07c92781d0bd5d38c30d.png",
+    "static/media/prouct-img-237-180.jpg": "/e-commerce/static/media/prouct-img-237-180.9363b5f25c495accc462.jpg",
+    "static/media/product-img-268-280.jpg": "/e-commerce/static/media/product-img-268-280.5d1fdfb606b223bfc41e.jpg",
+    "static/media/product-img-100-67.jpg": "/e-commerce/static/media/product-img-100-67.cf3fb2db35d5a80284a2.jpg",
+    "static/media/ic-actions-star.svg": "/e-commerce/static/media/ic-actions-star.7bd21a3d0110b4716216.svg",
+    "static/media/ic-actions-star-active.svg": "/e-commerce/static/media/ic-actions-star-active.19a98370aa46a2de6426.svg",
+    "static/media/ic-actions-star-yellow.svg": "/e-commerce/static/media/ic-actions-star-yellow.a7740469c7efdaeaeb0c.svg",
+    "index.html": "/e-commerce/index.html",
+    "static/media/categories-checkbox-true.svg": "/e-commerce/static/media/categories-checkbox-true.5fe05e80f068348840da.svg",
+    "main.c40b69d4.css.map": "/e-commerce/static/css/main.c40b69d4.css.map",
+    "main.0aeb9e52.js.map": "/e-commerce/static/js/main.0aeb9e52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40b69d4.css",
+    "static/js/main.0aeb9e52.js"
+  ]
+}
