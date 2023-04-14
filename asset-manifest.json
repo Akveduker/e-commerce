@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.c40b69d4.css",
-    "main.js": "/e-commerce/static/js/main.39a5ae54.js",
+    "main.css": "/e-commerce/static/css/main.c5a51c1f.css",
+    "main.js": "/e-commerce/static/js/main.a01065b2.js",
     "static/media/prouct-img-page.jpg": "/e-commerce/static/media/prouct-img-page.a80deae111e20a154195.jpg",
     "static/media/banner.png": "/e-commerce/static/media/banner.07c92781d0bd5d38c30d.png",
     "static/media/prouct-img-237-180.jpg": "/e-commerce/static/media/prouct-img-237-180.9363b5f25c495accc462.jpg",
@@ -12,11 +12,11 @@
     "static/media/ic-actions-star-yellow.svg": "/e-commerce/static/media/ic-actions-star-yellow.a7740469c7efdaeaeb0c.svg",
     "index.html": "/e-commerce/index.html",
     "static/media/categories-checkbox-true.svg": "/e-commerce/static/media/categories-checkbox-true.5fe05e80f068348840da.svg",
-    "main.c40b69d4.css.map": "/e-commerce/static/css/main.c40b69d4.css.map",
-    "main.39a5ae54.js.map": "/e-commerce/static/js/main.39a5ae54.js.map"
+    "main.c5a51c1f.css.map": "/e-commerce/static/css/main.c5a51c1f.css.map",
+    "main.a01065b2.js.map": "/e-commerce/static/js/main.a01065b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40b69d4.css",
-    "static/js/main.39a5ae54.js"
+    "static/css/main.c5a51c1f.css",
+    "static/js/main.a01065b2.js"
   ]
 }
