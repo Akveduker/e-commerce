@@ -12,7 +12,7 @@ const CategoriesSubItemLink: FC<CategoriesSubItemLinkProps> = ({ id }) => {
     const category = findSingleCategoryById(id, useAppSelector(getCategoriesfromStore).categories)
     if (!category) return null
     return (
-        <Link className={s['link']} to={`${roots.main}${roots.categories}/${id}`} data-testid={'link'}>
+        <Link className={s['link']} to={`/${roots.main}/${roots.categories}/${id}`} data-testid={'link'}>
             {category.name}
         </Link>
     );

@@ -5,7 +5,7 @@ import { roots } from '../router/routes/routes';
 import PoroductPageProvider from '../context/product/ProductPageProvider/PoroductPageProvider';
 const Product = () => {
     const id = useParams().id
-    if (!id) return <Navigate to={`${roots.main}${roots.notFound}`} replace />
+    // if (!id) return <Navigate to={`/${roots.main}/${roots.notFound}`} replace />
     return (
         <>
             <PoroductPageProvider>

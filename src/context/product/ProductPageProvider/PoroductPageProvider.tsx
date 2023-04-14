@@ -13,7 +13,9 @@ interface PoroductPageProviderProps {
 const PoroductPageProvider: FC<PoroductPageProviderProps> = ({ children }) => {
     const id = +(useParams().id as string)
     const { data, status } = useFetchProduct(id)
-    if (status.type === STATUS_ERROR) return <Navigate to={`${roots.main}${roots.notFound}`} replace />
+    console.log(status.type)
+    if (status.type === STATUS_ERROR) return <Navigate to={`/${roots.main}/${roots.notFound}`} replace />
+
     if (!data || status.type === STATUS_LOADING) return <div className={s['page']}><Loader /></div>
     return (
         <ProductPageContext.Provider value={data}>

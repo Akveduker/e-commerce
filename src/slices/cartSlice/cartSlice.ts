@@ -43,6 +43,9 @@ export const removeFullCartThunk = createAsyncThunk<void, void, { state: RootSta
             changeCartItemEndpoint(getState().cart.id),
             {
                 ...bodyWithToken(getState().auth.accessToken),
+                headers: {
+                    "ngrok-skip-browser-warning": "true",
+                },
                 method: 'PATCH',
                 body: JSON.stringify({ userId: getState().auth.id, productsIds: [] })
             }

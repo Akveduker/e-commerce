@@ -8,7 +8,12 @@ export const useFetchData = <T>(endpoint: string, fetchErrorValidator?: ErrorVal
     const fetchCallback = async (body?: RequestInit) => {
         try {
             setStatus({ type: STATUS_LOADING })
-            const response = await fetch(endpoint, body)
+            const response = await fetch(endpoint, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true",
+                },
+                ...body
+            })
             if (response.status >= 400) {
                 throw response.status
             }

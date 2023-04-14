@@ -42,7 +42,7 @@ const ProductCard: FC<ProductCardProps> = ({ cardId }) => {
                 />
                 <LinkWithBorder
                     styleType='small'
-                    to={`${roots.main}${roots.product}/${cardId}`}
+                    to={`/${roots.main}/${roots.product}/${cardId}`}
                 >
                     Купить сейчас
                 </LinkWithBorder>

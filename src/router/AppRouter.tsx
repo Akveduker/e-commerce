@@ -25,12 +25,12 @@ const router = () => {
             <Route path={roots.main} element={<Main />}>
                 <Route index element={<MainContent />} />
                 <Route path={roots.categories} element={<Categories />}>
-                    <Route index element={isMobile ? <Navigate to={`${roots.main}`} replace /> : <CategoriesMainList />} />
+                    <Route index element={isMobile ? <Navigate to={`/${roots.main}`} replace /> : <CategoriesMainList />} />
                     <Route path=':id' element={<Products />} >
                     </Route>
                 </Route>
                 <Route path={roots.product} element={<Product />}>
-                    <Route index element={<Navigate to={`../${roots.categories}`} replace />} />
+                    <Route index element={<Navigate to={`/${roots.main}`} replace />} />
                     <Route path=':id' element={<ProductContent />} />
                 </Route>
                 <Route path={roots.authorization} element={<Authorization />} />
@@ -52,7 +52,7 @@ const router = () => {
                         </Route>
                         :
                         <Route path={roots.user} element={<User />}>
-                            <Route index element={<Navigate to={roots.main} />} />
+                            <Route index element={<Navigate to={`/${roots.main}`} />} />
                             <Route path={roots.profile} element={<DashboardProfile />} />
                             <Route path={roots.address} element={<AddressContainerWithBuilder />} />
                         </Route>

@@ -21,7 +21,7 @@ const UserCart: FC = () => {
     }
     return (
         <div className={className} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter}>
-            <Link to={`${roots.main}${roots.chekout}`} className={s['link']}  >
+            <Link to={`/${roots.main}/${roots.chekout}`} className={s['link']}  >
                 <UserCartIconWithSum />
             </Link>
             <div className={s['border']}>
