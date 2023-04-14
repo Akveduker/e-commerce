@@ -7,10 +7,10 @@ export const findAllParentCategories = (categories: ICategories[], id: number, r
     const category = findSingleCategoryById(id, categories)
     if (!category) return []
     if (category.parentId) {
-        result.unshift({ title: category.name, url: `${roots.main}${roots.categories}/${id}`, id: category.id })
+        result.unshift({ title: category.name, url: `/${roots.main}/${roots.categories}/${id}`, id: category.id })
         return findAllParentCategories(categories, category.parentId, result)
     } else {
-        result.unshift({ title: category.name, url: `${roots.main}${roots.categories}/${id}`, id: category.id })
+        result.unshift({ title: category.name, url: `/${roots.main}/${roots.categories}/${id}`, id: category.id })
         return result
     }
 }

@@ -10,7 +10,7 @@ export const useCreateArrForProducts = () => {
     const result: IBreadCrumbsItem[] = []
     const categories = useAppSelector(getCategoriesfromStore).categories
     const { category: categoryId, title, id } = useNotNullContext(ProductPageContext)
-    result.unshift({ title, url: `${roots.main}${roots.product}/${id}`, id: categoryId })
+    result.unshift({ title, url: `/${roots.main}/${roots.product}/${id}`, id: categoryId })
     findAllParentCategories(categories, categoryId, result)
     return result
 }

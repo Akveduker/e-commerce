@@ -14,7 +14,7 @@ const CategoryDropDownItem: FC<CategoryDropDownItemProps> = ({ id }) => {
     if (!category) return null
     return (
         <>
-            <GreenLink to={`/${roots.categories}/${id}`} underline>
+            <GreenLink to={`${roots.categories}/${id}`} underline>
                 {category.name}
             </GreenLink>
         </>

@@ -14,7 +14,7 @@ const CheckoutBuy: FC<CheckoutBuyProps> = ({ isOpen }) => {
     const navigate = useNavigate()
     const close = () => {
         closeModal()
-        navigate(roots.main)
+        navigate(`/${roots.main}`)
         clearCart()
     }
     return (

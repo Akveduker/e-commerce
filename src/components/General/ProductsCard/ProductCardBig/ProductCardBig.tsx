@@ -67,7 +67,7 @@ const ProductCardBig: FC<ProductCardBig> = ({ cardId }) => {
                 <div className={s['button']}>
                     <LinkWithBorder
                         styleType='medium'
-                        to={`${roots.main}${roots.product}/${cardId}`}
+                        to={`/${roots.main}/${roots.product}/${cardId}`}
                     >
                         {window.innerWidth <= 460 ?
                             <span>Купить</span>

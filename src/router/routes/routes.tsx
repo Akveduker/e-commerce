@@ -1,5 +1,5 @@
 export const roots = {
-    main: '/',
+    main: 'e-commerce',
     categories: 'categories',
     product: 'product',
     notFound: '*',

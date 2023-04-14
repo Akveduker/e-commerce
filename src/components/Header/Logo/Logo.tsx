@@ -1,9 +1,11 @@
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import s from './Logo.module.scss'
+import { root } from '../../..';
+import { roots } from '../../../router/routes/routes';
 const Logo: FC = () => {
     return (
-        <Link to={'/'} className={s['logo']}>
+        <Link to={`/${roots.main}`} className={s['logo']}>
             <svg width="177" height="18" viewBox="0 0 177 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.87168 10.7609H10.4051V7.23913H3.87168V3.52174H11.857V0H0V17.6087H3.87168V10.7609Z" fill="#151515" />
                 <path d="M13.1832 11.0054V17.6087H16.8129V11.0054C16.8129 8.97554 18.4342 7.33696 20.4426 7.33696V4.01087H19.9586C15.9418 4.01087 13.1832 7.1413 13.1832 11.0054Z" fill="#151515" />

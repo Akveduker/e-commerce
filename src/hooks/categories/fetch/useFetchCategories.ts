@@ -10,7 +10,7 @@ export const useFetchCategories = () => {
     const { data, status, fetchCallback } = useFetchData<ICategories[]>(allCategoriesEndpoint())
     const dispatch = useAppDispatch()
     useEffect(() => {
-        if (status.type === STATUS_IDLE) fetchCallback()
+        if (status.type === STATUS_IDLE) fetchCallback({})
         if (status.type === STATUS_DONE && data) dispatch(setAllCategories(data))
     }, [status.type])
     return status
