@@ -1,0 +1,14 @@
+.container {
+    margin-top: 10px;
+}
+.address {
+    display: flex;
+    align-items: center;
+    &__body {
+        font-size: 17px;
+        max-width: 48%;
+    }
+}
+.button {
+    margin-left: 20px;
+}

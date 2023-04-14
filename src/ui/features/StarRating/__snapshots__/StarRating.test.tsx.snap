@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating Снапшот 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <span
+      class="rating"
+    />
+    <span
+      class="rating--active"
+      data-testid="rate"
+      style="width: 400%;"
+    />
+  </div>
+</div>
+`;

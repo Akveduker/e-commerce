@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesCheckbox снапшот активного чекбокса 1`] = `
+<div>
+  <label
+    class="label label--active"
+    data-testid="label"
+  >
+    <input
+      class="checkbox"
+      type="checkbox"
+    />
+    <span
+      class="fake-checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`CategoriesCheckbox снапшот неактивного чекбокса 1`] = `
+<div>
+  <label
+    class="label"
+    data-testid="label"
+  >
+    <input
+      class="checkbox"
+      type="checkbox"
+    />
+    <span
+      class="fake-checkbox"
+    />
+  </label>
+</div>
+`;

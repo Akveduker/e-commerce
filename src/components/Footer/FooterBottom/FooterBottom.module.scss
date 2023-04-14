@@ -1,0 +1,14 @@
+@import "../../../styles/_mixins.scss";
+.container {
+    font-size: 14px;
+    padding: 38px 0 54px;
+}
+.item {
+    margin: 10px 0;
+}
+@media (max-width: 666px) {
+    .container {
+        padding: 15px 0 70px;
+        text-align: center;
+    }
+}

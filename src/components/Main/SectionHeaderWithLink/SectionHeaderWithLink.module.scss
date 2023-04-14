@@ -1,0 +1,23 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__link {
+        text-decoration: none;
+        color: $C1A;
+        font-size: 15px;
+        @include fontBold;
+        display: flex;
+        align-items: center;
+    }
+}
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    path {
+        stroke: $C2A;
+    }
+}

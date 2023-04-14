@@ -1,0 +1,5 @@
+@import "../../../../styles/_mixins.scss";
+.title {
+    @include fontSemibold;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,29 @@
+@import "../../../styles/_mixins.scss";
+.wrapper {
+    @include container;
+    margin-top: 30px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+.wrapper {
+    width: 100%;
+}
+.filters {
+    width: 100%;
+    max-width: 267px;
+}
+.products {
+    width: 100%;
+}
+.pagination {
+    margin-top: auto;
+}
+.empty {
+    margin-top: 30px;
+    text-align: center;
+}

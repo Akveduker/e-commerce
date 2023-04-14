@@ -1,0 +1,37 @@
+@import "../../../styles/_mixins.scss";
+.input {
+    border-radius: $borderRadius;
+    background-color: $C1H;
+    border: 1px solid $C1D;
+    width: 100%;
+    padding: 11px 21px;
+    font-size: 14px;
+    &::placeholder {
+        color: $C1C;
+    }
+}
+.with-children {
+    display: block;
+    border-radius: $borderRadius;
+    background-color: $C1H;
+    border: 1px solid $C1D;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    &__input {
+        padding: 11px 21px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        &::placeholder {
+            color: $C1C;
+        }
+    }
+    &__children {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+}

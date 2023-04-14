@@ -1,0 +1,33 @@
+.page {
+    max-width: 574px;
+    min-width: 474px;
+    width: 100%;
+    margin-left: auto;
+    &--mobile {
+        max-width: 100%;
+        min-width: 0;
+        .params {
+            margin: 20px 0;
+        }
+        .description {
+            margin-top: 10px;
+        }
+    }
+}
+.title {
+    margin-bottom: 8px;
+}
+.description {
+    margin-top: 40px;
+    font-size: 17px;
+}
+.params {
+    margin: 40px 0;
+}
+.price {
+    margin-bottom: 20px;
+}
+.slider {
+    margin-top: 20px;
+    max-width: 573px;
+}

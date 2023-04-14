@@ -1,0 +1,43 @@
+@import "../../../styles/_vars.scss";
+.container {
+    display: flex;
+}
+.param {
+    margin-bottom: 12px;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 200px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.list {
+    font-size: 15px;
+    width: 100%;
+    max-width: 50%;
+    margin-right: 32px;
+    &:last-child {
+        margin-right: 0;
+    }
+    li {
+        list-style: none;
+    }
+}
+.title {
+    width: 100%;
+    max-width: 50%;
+    color: $C1C;
+}
+.description {
+    width: 100%;
+    max-width: 50%;
+}
+.item {
+    margin-bottom: 12px;
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    display: flex;
+    justify-content: space-between;
+}

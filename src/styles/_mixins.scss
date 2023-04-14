@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+@import "./vars";
+@mixin fontBold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+@mixin fontSemibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+@mixin fontMedium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+@mixin fontRegular {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+@mixin container {
+    max-width: $containerWidth;
+    padding: 0 $padding;
+    margin: 0 auto;
+}
+@mixin containerWithPadding {
+    @include container;
+    padding: $sectionPaddings $padding;
+    @media (max-width: $breakpointMedium) {
+        padding: $sectionMediumPadding $padding;
+    }
+    @media (max-width: $breakpointSmall) {
+        padding: $sectionSmallPadding $padding;
+    }
+}
+@mixin categoryButton {
+    color: $C1A;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    font-size: 14px;
+    @include fontSemibold;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    &:hover {
+        color: $C2B;
+    }
+}
+@mixin categoryContainer {
+    @include container;
+}
+@mixin categoryItem {
+    margin: 20px 20px 0 0;
+    &:last-child {
+        margin: 20px 0 0 0;
+    }
+}
+@mixin breadScrumbsCurrent {
+    color: $C1C;
+}
+
+@mixin breadScrumbsLink {
+    &:hover {
+        color: $C1B;
+    }
+}
+@mixin breadScrumbsSlash {
+    margin: 0 8px;
+}
+@mixin error {
+    color: $C4B;
+}
+@mixin inputStyles {
+    border-radius: $borderRadius;
+    background-color: $C1H;
+    border: 1px solid $C1D;
+    width: 100%;
+    padding: 11px 21px;
+    font-size: 14px;
+    &::placeholder {
+        color: $C1C;
+    }
+}
+@mixin formInput {
+    @include inputStyles;
+    padding: 10px 30px 10px 10px;
+}
+@mixin buttonWithBorder {
+    border-radius: $borderRadius;
+    background-color: $C2A;
+    @include fontBold;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid $C2B;
+    color: $C1J;
+    transition: $buttonTranstion;
+    path {
+        stroke: $C1J;
+    }
+    svg {
+        transition: $linkTranstion;
+    }
+    &:hover {
+        background-color: $C2C;
+        border-color: $C2A;
+    }
+}
+@mixin authorizationBody {
+    border-radius: $borderRadius;
+    padding: 20px;
+}
+@mixin authorizationTitle {
+    margin-bottom: 20px;
+}
+@mixin authorizationError {
+    margin-top: 5px;
+    font-size: 15px;
+    color: red;
+}
+@mixin authorizationSwitchButton {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: $C2A;
+    transition: $buttonTranstion;
+    &:hover {
+        color: $C2B;
+    }
+}
+@mixin authorizationLabelText {
+    font-size: 16px;
+    @include fontSemibold;
+    margin-bottom: 5px;
+}
+@mixin authorizationIconPosition {
+    svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: 5px;
+    }
+}

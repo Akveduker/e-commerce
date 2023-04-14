@@ -1,0 +1,29 @@
+.list {
+    list-style: none;
+}
+.title {
+    margin-bottom: 16px;
+}
+.item {
+    margin-bottom: 16px;
+    font-size: 14px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.button {
+    margin-top: 48px;
+}
+@media (max-width: 673px) {
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

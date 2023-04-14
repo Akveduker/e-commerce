@@ -1,0 +1,29 @@
+@import "../../../styles/_vars.scss";
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sum {
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    color: $C1J;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $C4A;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    &--mobile {
+        top: 0;
+        left: initial;
+        right: -8px;
+        font-size: 10px;
+        width: 16px;
+        height: 16px;
+    }
+}

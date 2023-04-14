@@ -1,0 +1,14 @@
+@import "../../../../styles/_vars.scss";
+.container {
+    width: 100%;
+    max-width: 266px;
+    padding: 20px 10px;
+    box-sizing: content-box;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: $C1J;
+}
+.button {
+    border: none;
+}

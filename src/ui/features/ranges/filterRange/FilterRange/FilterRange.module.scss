@@ -1,0 +1,27 @@
+@import "../../../../../styles/_vars.scss";
+@import "../../../../../styles/_mixins.scss";
+.title {
+    @include fontSemibold;
+    margin-bottom: 16px;
+}
+
+.label {
+    max-width: 109px;
+}
+.inputs {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 15px;
+    position: relative;
+}
+.line {
+    font-size: 14px;
+    color: $C1C;
+    margin-bottom: 12px;
+}
+.label {
+    &__title {
+        @include fontSemibold;
+    }
+}

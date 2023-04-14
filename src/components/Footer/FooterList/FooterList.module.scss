@@ -1,0 +1,34 @@
+@import "../../../styles/_vars.scss";
+.list {
+    list-style: none;
+    width: 100%;
+}
+.title {
+    margin-bottom: 16px;
+}
+.item {
+    margin-bottom: 16px;
+    font-size: 14px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 700px) {
+    .item {
+        margin-top: 10px;
+    }
+    .title {
+        margin-bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon {
+        transition: $dropDownTranstion;
+    }
+    .opener--active {
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+}

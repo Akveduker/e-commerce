@@ -1,0 +1,10 @@
+@import "../../../../styles/_mixins.scss";
+.container {
+    position: relative;
+}
+.input {
+    @include formInput;
+}
+.name {
+    @include authorizationLabelText;
+}

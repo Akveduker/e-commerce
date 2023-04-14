@@ -1,0 +1,18 @@
+@import "../../../styles/_vars.scss";
+.address {
+    display: flex;
+    font-size: 16px;
+}
+.buttons {
+    margin-top: 10px;
+    display: flex;
+}
+.delete {
+    margin-left: 5px;
+    padding: 5px;
+    background-color: $C4B;
+    border: none;
+    color: $C1J;
+    cursor: pointer;
+    border-radius: $borderRadius;
+}

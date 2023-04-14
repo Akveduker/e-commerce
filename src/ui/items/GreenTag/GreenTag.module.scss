@@ -1,0 +1,9 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.tag {
+    @include fontSemibold;
+    color: $C2A;
+    background-color: $C2E;
+    border-radius: $borderRadius;
+    padding: 0 8px;
+}

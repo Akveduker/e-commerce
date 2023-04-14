@@ -1,0 +1,44 @@
+@import "../../../../styles/_vars.scss";
+.card {
+    display: flex;
+    width: 100%;
+    &__loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.control {
+    margin-right: 16px;
+}
+.img {
+    border-radius: $borderRadius;
+    height: 67px;
+    img {
+        width: 100px;
+        display: block;
+    }
+}
+.content {
+    width: 100%;
+    &__rating {
+        margin: 15px 0;
+    }
+}
+.price {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 400px) {
+    .price {
+        margin-top: 10px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .amount {
+        margin-top: 5px;
+    }
+}

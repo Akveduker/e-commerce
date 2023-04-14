@@ -1,0 +1,19 @@
+@import "../../../styles/_vars.scss";
+.button {
+    border-radius: $borderRadius;
+    background-color: $C1F;
+    padding: 12.5px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &--active {
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+}
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}

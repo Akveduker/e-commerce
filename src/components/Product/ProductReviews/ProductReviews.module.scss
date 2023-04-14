@@ -1,0 +1,22 @@
+@import "../../../styles/_vars.scss";
+.review {
+    padding: 16px;
+    border: 1px solid $C1D;
+    border-radius: $borderRadius;
+    &__icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $C1B;
+        margin-right: 10px;
+    }
+    &__body {
+        margin-top: 20px;
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.container {
+    position: relative;
+}
+.information {
+    margin-top: 20px;
+    &__title {
+        border-bottom: 1px solid $C1C;
+        padding-bottom: 10px;
+    }
+}
+.submit {
+    margin-top: 10px;
+}
+.error {
+    @include error;
+    margin-top: 20px;
+}

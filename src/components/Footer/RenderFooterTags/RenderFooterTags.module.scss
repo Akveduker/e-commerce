@@ -1,0 +1,18 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.tag {
+    padding: 4px 10px;
+    border-radius: 12px;
+    background-color: $C1F;
+    color: $C1A;
+    text-decoration: none;
+    margin: 8px 16px 8px 0;
+    @include fontSemibold;
+    transition: $linkTranstion;
+    &:last-child {
+        margin: 8px 0 8px 0;
+    }
+    &:hover {
+        color: $C2A;
+    }
+}

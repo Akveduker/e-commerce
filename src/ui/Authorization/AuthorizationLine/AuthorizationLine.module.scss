@@ -1,0 +1,30 @@
+@import "../../../styles/_vars.scss";
+.line {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    &::after,
+    &::before {
+        z-index: -1;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $C1B;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+    &::after {
+        right: 0;
+    }
+    &::before {
+        left: 0;
+    }
+}
+.text {
+    display: inline-flex;
+    background-color: $C1J;
+    padding: 0 5px;
+}

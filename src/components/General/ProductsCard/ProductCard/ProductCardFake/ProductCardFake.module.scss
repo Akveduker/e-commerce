@@ -1,0 +1,23 @@
+@import "../../../../../styles/_vars.scss";
+.card {
+    height: 324px;
+}
+.title {
+    width: 120px;
+    height: 18px;
+    background-color: $C1D;
+}
+.description {
+    height: 17px;
+    background-color: $C1D;
+}
+.price {
+    width: 81px;
+    height: 36px;
+    background-color: $C1D;
+}
+.button {
+    width: 130px;
+    height: 36px;
+    background-color: $C1D;
+}

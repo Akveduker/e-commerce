@@ -1,0 +1,25 @@
+@import "../../../styles/_mixins.scss";
+@import "../../../styles/_vars.scss";
+.container {
+    display: flex;
+    @include container;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+@media (max-width: 700px) {
+    .container {
+        margin-bottom: 20px;
+    }
+    .item {
+        width: 100%;
+        padding: 15px 0;
+        border-top: 1px solid $C1A;
+        &:last-child {
+            border-bottom: 1px solid $C1A;
+        }
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

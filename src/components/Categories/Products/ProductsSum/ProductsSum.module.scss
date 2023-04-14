@@ -1,0 +1,10 @@
+@import "../../../../styles/_vars.scss";
+.sum {
+    color: $C1C;
+    display: flex;
+}
+@media (max-width: 400px) {
+    .text {
+        display: none;
+    }
+}

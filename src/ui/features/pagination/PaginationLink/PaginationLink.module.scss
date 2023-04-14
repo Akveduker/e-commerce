@@ -1,0 +1,13 @@
+@import "../../../../styles/_vars.scss";
+@import "../../../../styles/_mixins.scss";
+.link {
+    margin-left: 8px;
+    font-size: 12px;
+    @include fontRegular;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    &--active {
+        color: $C2A;
+    }
+}

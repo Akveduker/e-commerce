@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputForDatePicker Снапшот 1`] = `
+<div>
+  <input
+    class="input"
+  />
+</div>
+`;

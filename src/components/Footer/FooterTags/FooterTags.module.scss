@@ -1,0 +1,16 @@
+@import "../../../styles/_vars.scss";
+.wrapper {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 666px) {
+    .wrapper {
+        justify-content: center;
+    }
+    .title {
+        margin-top: 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width: 48%;
+    &__input {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .item {
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+}

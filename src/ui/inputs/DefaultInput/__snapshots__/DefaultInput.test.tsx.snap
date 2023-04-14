@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultInput Без маски Добавляется доп элемент и работает связыванние классов 1`] = `
+<div>
+  <label
+    class="with-children label"
+    data-testid="label"
+  >
+    <input
+      class="with-children__input"
+      data-testid="default"
+    />
+    <div
+      class="with-children__children children"
+    >
+      elem
+    </div>
+  </label>
+</div>
+`;
+
+exports[`DefaultInput Без маски Рендерится нужный инпут, снапшот 1`] = `
+<div>
+  <input
+    class="input"
+    data-testid="default"
+  />
+</div>
+`;
+
+exports[`DefaultInput С маской Добавляется доп элемент и работает связыванние классов 1`] = `
+<div>
+  <label
+    class="with-children label"
+    data-testid="label"
+  >
+    <input
+      class="with-children__input"
+    />
+    <div
+      class="with-children__children children"
+    >
+      elem
+    </div>
+  </label>
+</div>
+`;
+
+exports[`DefaultInput С маской Рендерится нужный инпут, снапшот 1`] = `
+<div>
+  <input
+    class="input"
+  />
+</div>
+`;

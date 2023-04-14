@@ -1,0 +1,39 @@
+@import "../../../styles/_mixins.scss";
+.container {
+    @include containerWithPadding;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.categories {
+    width: 100%;
+    max-width: 269px;
+    margin-right: 32px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 875px;
+}
+.item {
+    width: 100%;
+    max-width: 268px;
+}
+
+@media (max-width: 673px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

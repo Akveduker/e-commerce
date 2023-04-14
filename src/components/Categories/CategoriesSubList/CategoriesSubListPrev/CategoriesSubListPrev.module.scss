@@ -1,0 +1,30 @@
+@import "../../../../styles/_vars.scss";
+.current {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: $C2D;
+    border-radius: $borderRadius;
+    display: inline-flex;
+}
+.prev {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 5px;
+    &:hover {
+        svg {
+            path {
+                stroke: $C2B;
+            }
+        }
+    }
+}
+.icon {
+    transform: rotate(180deg);
+    position: absolute;
+    left: -15px;
+    path {
+        transition: $linkTranstion;
+        stroke-width: 2px;
+    }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputName Рендерится имя, снапшот 1`] = `
+<div>
+  <p
+    class="name"
+  >
+    name
+  </p>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreButton Кнопка активна Снапшот активной кнопки 1`] = `
+<div>
+  <button
+    class="button button--active"
+    data-testid="toggle-button"
+    type="button"
+  >
+    Скрыть
+    <svg
+      class="icon"
+      fill="none"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669"
+        stroke="#151515"
+        stroke-linecap="round"
+        stroke-linejoin="bevel"
+        stroke-width="2.5"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`MoreButton Кнопка неактивна Снапшот неактивной кнопки 1`] = `
+<div>
+  <button
+    class="button"
+    data-testid="toggle-button"
+    type="button"
+  >
+    Больше категорий
+    <svg
+      class="icon"
+      fill="none"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4.81348 6.53336L7.55348 9.27336C7.67838 9.39752 7.84735 9.46722 8.02348 9.46722C8.1996 9.46722 8.36857 9.39752 8.49348 9.27336L11.1601 6.60669"
+        stroke="#151515"
+        stroke-linecap="round"
+        stroke-linejoin="bevel"
+        stroke-width="2.5"
+      />
+    </svg>
+  </button>
+</div>
+`;

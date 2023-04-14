@@ -1,0 +1,11 @@
+@import "../../../styles/_vars.scss";
+.card {
+    padding: 20px;
+    border: 1px solid $C1A;
+    border-radius: $borderRadius;
+}
+@media (max-width: 550px) {
+    .card {
+        padding: 10px;
+    }
+}

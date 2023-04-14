@@ -1,0 +1,2 @@
+import { ICategories } from '../../../../types/categories/categories';
+export const findSingleCategoryById = (id: number, categoryArr: ICategories[]) => categoryArr.find(category => category.id === id)

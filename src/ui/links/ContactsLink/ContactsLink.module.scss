@@ -1,0 +1,9 @@
+@import "../../../styles/_vars.scss";
+.link {
+    color: $C1A;
+    text-decoration: none;
+    transition: $linkTranstion;
+    &:hover {
+        color: $C1B;
+    }
+}

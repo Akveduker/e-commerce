@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesSubItemLink Категории нет в сторе 1`] = `<div />`;
+
+exports[`CategoriesSubItemLink Категория есть в сторе 1`] = `
+<div>
+  <a
+    class="link"
+    data-testid="link"
+    href="/categories/1"
+  >
+    name
+  </a>
+</div>
+`;

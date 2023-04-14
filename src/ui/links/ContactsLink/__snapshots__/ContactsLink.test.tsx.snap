@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsLink Снапшот 1`] = `
+<div>
+  <a
+    class="link"
+    href="/"
+  >
+    link
+  </a>
+</div>
+`;

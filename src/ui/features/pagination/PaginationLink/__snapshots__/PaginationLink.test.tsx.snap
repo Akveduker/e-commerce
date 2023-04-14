@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationLink Ссылка активна,меняет параметры и состояние 1`] = `
+<div>
+  <button
+    class="link link--active"
+    data-testid="button"
+    type="button"
+  >
+    1
+  </button>
+</div>
+`;
+
+exports[`PaginationLink Ссылка неактивна 1`] = `
+<div>
+  <button
+    class="link"
+    data-testid="button"
+    type="button"
+  >
+    5
+  </button>
+</div>
+`;

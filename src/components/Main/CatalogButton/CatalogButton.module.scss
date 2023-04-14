@@ -1,0 +1,29 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.button {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    white-space: nowrap;
+    &::after {
+        content: "";
+        background-color: $C1D;
+        width: 1px;
+        height: 20px;
+        right: 0;
+        margin: 0 22px 0;
+    }
+}
+.icon {
+    margin-left: 8px;
+    path {
+        stroke: $C2A;
+    }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buttonWithBorderTest Снапшот 1`] = `
+<div>
+  <button
+    class="button button--medium"
+  >
+    test
+  </button>
+</div>
+`;

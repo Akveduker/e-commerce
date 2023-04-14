@@ -1,0 +1,43 @@
+@import "../../../styles/_mixins.scss";
+.button {
+    @include buttonWithBorder;
+    display: inline-flex;
+    align-items: center;
+    &--medium {
+        padding: 10px 14px;
+    }
+    &--small {
+        padding: 4.5px 10px;
+    }
+    &--big {
+        padding: 14px 46px;
+    }
+    &--full-width {
+        justify-content: center;
+        padding: 12px 46px;
+        width: 100%;
+        font-size: 20px;
+    }
+    &:disabled {
+        background-color: $C1F;
+        border-color: $C1F;
+        color: $C1A;
+        // box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+        &:hover {
+            background-color: $C1F;
+            border-color: $C1F;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .button {
+        &--medium {
+            padding: 5px 8px;
+            font-size: 14px;
+        }
+        &--big {
+            padding: 8px 14px;
+            font-size: 14px;
+        }
+    }
+}

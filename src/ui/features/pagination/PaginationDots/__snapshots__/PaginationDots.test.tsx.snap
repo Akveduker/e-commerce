@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationDots Снапшот 1`] = `
+<div>
+  <span
+    class="dots"
+  >
+    ...
+  </span>
+</div>
+`;

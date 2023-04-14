@@ -1,0 +1,25 @@
+.container {
+    width: 106px;
+    height: 20px;
+    position: relative;
+}
+.rating {
+    width: 100%;
+    height: 100%;
+    background: url("../../../assets/icons/ic-actions-star.svg");
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    &--active {
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: block;
+        background: url("../../../assets/icons/ic-actions-star-active.svg");
+        position: absolute;
+        &__yellow {
+            background: url("../../../assets/icons/ic-actions-star-yellow.svg");
+        }
+    }
+}

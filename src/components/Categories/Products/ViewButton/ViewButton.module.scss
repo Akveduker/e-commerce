@@ -1,0 +1,28 @@
+@import "../../../../styles/_vars.scss";
+.button {
+    font-size: 12px;
+    width: 100%;
+    color: $C1C;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    svg {
+        margin-right: 4px;
+    }
+    &--active {
+        color: $C1A;
+        path {
+            stroke: $C2A;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .button {
+        width: initial;
+        padding: 0 10px;
+        svg {
+            margin-right: 0;
+        }
+    }
+}

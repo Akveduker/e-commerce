@@ -1,0 +1,667 @@
+{
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Одежда",
+      "url": "/",
+      "parentId": null,
+      "childCategory": [
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Обувь",
+      "url": "/",
+      "parentId": null,
+      "childCategory": [
+        7
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Акссесуары",
+      "url": "/",
+      "parentId": null,
+      "childCategory": [
+        8
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Спорт",
+      "url": "/",
+      "parentId": null,
+      "childCategory": []
+    },
+    {
+      "id": 5,
+      "name": "Куртки",
+      "url": "/",
+      "parentId": 1,
+      "childCategory": [
+        6
+      ]
+    },
+    {
+      "id": 6,
+      "url": "/",
+      "name": "Зимние куртки",
+      "parentId": 5,
+      "childCategory": []
+    },
+    {
+      "id": 7,
+      "url": "/",
+      "name": "Сапоги",
+      "parentId": 2,
+      "childCategory": []
+    },
+    {
+      "id": 8,
+      "url": "/",
+      "parentId": 3,
+      "name": "Часы",
+      "childCategory": []
+    }
+  ],
+  "Links": [
+    {
+      "title": "Get in touch",
+      "links": [
+        {
+          "name": "About Us",
+          "url": "/"
+        },
+        {
+          "name": "Careers",
+          "url": "/"
+        },
+        {
+          "name": "Press Releases",
+          "url": "/"
+        },
+        {
+          "name": "Blog",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Connections",
+      "links": [
+        {
+          "name": "Facebook",
+          "url": "/"
+        },
+        {
+          "name": "Twitter",
+          "url": "/"
+        },
+        {
+          "name": "Instagram",
+          "url": "/"
+        },
+        {
+          "name": "Youtube",
+          "url": "/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Earnings",
+      "links": [
+        {
+          "name": "Become an Affiliate",
+          "url": "/"
+        },
+        {
+          "name": "Advertise your product",
+          "url": "/"
+        },
+        {
+          "name": "Sell on Market",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Account",
+      "links": [
+        {
+          "name": "Your account",
+          "url": "/"
+        },
+        {
+          "name": "Returns Centre",
+          "url": "/"
+        },
+        {
+          "name": "100% purchase protection",
+          "url": "/"
+        },
+        {
+          "name": "Chat with us",
+          "url": "/"
+        },
+        {
+          "name": "Help",
+          "url": "/"
+        }
+      ]
+    }
+  ],
+  "Comments": [
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name1 surname1",
+      "img": "/"
+    },
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name2 surname2",
+      "img": "/"
+    },
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name3 surname3",
+      "img": "/"
+    },
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name4 surname4",
+      "img": "/"
+    },
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name5 surname5",
+      "img": "/"
+    },
+    {
+      "text": "“ This is an super space for your customers qoute. Don't worry it works smooth as pie. You will get all what you need by writiing a text here “",
+      "name": "name6 surname6"
+    }
+  ],
+  "Offering": {
+    "categories": {
+      "title": "Рекомендуемые товары",
+      "links": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    "products": [
+      1,
+      5,
+      3
+    ]
+  },
+  "Products": [
+    {
+      "id": 1,
+      "title": "officia",
+      "description": "esse nulla dolore proident sunt cupidatat",
+      "rate": 3.123,
+      "price": 56,
+      "brands": 2,
+      "category": 5,
+      "discount": {
+        "newPrice": 32,
+        "percent": 10
+      }
+    },
+    {
+      "id": 2,
+      "title": "aliquip",
+      "description": "Lorem elit ad id deserunt non",
+      "rate": 2.1426,
+      "price": 37,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 3,
+      "title": "duis",
+      "description": "proident laborum quis veniam magna sint",
+      "rate": 3.217,
+      "price": 87,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 4,
+      "title": "cillum",
+      "description": "nostrud aliquip minim anim ea officia",
+      "rate": 1.6224,
+      "price": 38,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 5,
+      "title": "amet",
+      "description": "voluptate culpa officia et eu fugiat",
+      "rate": 3.0457,
+      "price": 17,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 6,
+      "title": "exercitation",
+      "description": "elit do aliqua eu est ex",
+      "rate": 4.4174,
+      "price": 89,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 7,
+      "title": "exercitation",
+      "description": "incididunt qui in anim tempor velit",
+      "rate": 4.5562,
+      "price": 58,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 8,
+      "title": "ad",
+      "description": "id excepteur aliqua sunt incididunt reprehenderit",
+      "rate": 3.2468,
+      "price": 111,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 9,
+      "title": "aute",
+      "description": "id reprehenderit nostrud occaecat irure consequat",
+      "rate": 3.2457,
+      "price": 119,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 10,
+      "title": "sunt",
+      "description": "irure et ex culpa consectetur voluptate",
+      "rate": 3.5077,
+      "price": 19,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 11,
+      "title": "id",
+      "description": "ut cupidatat adipisicing deserunt commodo qui",
+      "rate": 2.4743,
+      "price": 64,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 12,
+      "title": "esse",
+      "description": "incididunt cillum minim fugiat ut fugiat",
+      "rate": 1.0288,
+      "price": 47,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 13,
+      "title": "cillum",
+      "description": "anim in do est in laboris",
+      "rate": 4.0875,
+      "price": 95,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 14,
+      "title": "aliquip",
+      "description": "culpa ipsum sunt tempor sit eiusmod",
+      "rate": 1.9251,
+      "price": 6,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 15,
+      "title": "eu",
+      "description": "minim duis duis reprehenderit labore sit",
+      "rate": 4.6786,
+      "price": 24,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 16,
+      "title": "est",
+      "description": "officia veniam dolor non excepteur cillum",
+      "rate": 4.5102,
+      "price": 19,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 17,
+      "title": "duis",
+      "description": "ut ut pariatur non eu sit",
+      "rate": 3.4613,
+      "price": 74,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 18,
+      "title": "quis",
+      "description": "amet tempor ex qui et exercitation",
+      "rate": 3.3297,
+      "price": 96,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 19,
+      "title": "Lorem",
+      "description": "amet exercitation sint adipisicing aute ut",
+      "rate": 3.9491,
+      "price": 69,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 20,
+      "title": "nostrud",
+      "description": "aute eiusmod anim elit esse quis",
+      "rate": 2.977,
+      "price": 101,
+      "brands": 2,
+      "category": 1
+    },
+    {
+      "id": 21,
+      "title": "ipsum",
+      "description": "officia laboris do tempor cillum sunt",
+      "rate": 3.2282,
+      "price": 109,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 22,
+      "title": "minim",
+      "description": "incididunt ea aliqua aute Lorem elit",
+      "rate": 3.0355,
+      "price": 33,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 23,
+      "title": "laboris",
+      "description": "in aute nisi tempor voluptate ea",
+      "rate": 3.8091,
+      "price": 83,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 24,
+      "title": "sit",
+      "description": "consectetur voluptate ullamco nulla adipisicing anim",
+      "rate": 4.6174,
+      "price": 115,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 25,
+      "title": "eu",
+      "description": "incididunt duis labore ut esse veniam",
+      "rate": 2.7986,
+      "price": 76,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 26,
+      "title": "sit",
+      "description": "excepteur proident nostrud nisi fugiat elit",
+      "rate": 2.9143,
+      "price": 62,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 27,
+      "title": "sint",
+      "description": "cillum reprehenderit eiusmod et nisi cupidatat",
+      "rate": 3.9973,
+      "price": 69,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 28,
+      "title": "officia",
+      "description": "excepteur dolore ex labore adipisicing non",
+      "rate": 1.9484,
+      "price": 109,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 29,
+      "title": "labore",
+      "description": "mollit laboris reprehenderit velit proident anim",
+      "rate": 1.3883,
+      "price": 72,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 30,
+      "title": "minim",
+      "description": "dolor amet pariatur occaecat laborum non",
+      "rate": 2.5021,
+      "price": 110,
+      "brands": 2,
+      "category": 5
+    },
+    {
+      "id": 31,
+      "title": "aliquip",
+      "description": "do ea et incididunt quis voluptate",
+      "rate": 4.1144,
+      "price": 10,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 32,
+      "title": "amet",
+      "description": "sit sunt sint dolor labore dolore",
+      "rate": 2.3304,
+      "price": 115,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 33,
+      "title": "minim",
+      "description": "irure excepteur voluptate amet excepteur veniam",
+      "rate": 4.4692,
+      "price": 54,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 34,
+      "title": "enim",
+      "description": "aliqua nisi adipisicing elit culpa exercitation",
+      "rate": 3.4933,
+      "price": 105,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 35,
+      "title": "qui",
+      "description": "ullamco ut eiusmod nisi eiusmod dolore",
+      "rate": 1.641,
+      "price": 102,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 36,
+      "title": "culpa",
+      "description": "consectetur elit esse non cupidatat culpa",
+      "rate": 3.6566,
+      "price": 3,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 37,
+      "title": "dolore",
+      "description": "cupidatat amet adipisicing sint consectetur nulla",
+      "rate": 2.5756,
+      "price": 55,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 38,
+      "title": "anim",
+      "description": "commodo proident anim mollit enim pariatur",
+      "rate": 1.489,
+      "price": 54,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 39,
+      "title": "ad",
+      "description": "voluptate duis tempor aliqua in eiusmod",
+      "rate": 2.2431,
+      "price": 32,
+      "brands": 2,
+      "category": 6
+    },
+    {
+      "id": 40,
+      "title": "incididunt",
+      "description": "id dolore velit excepteur laboris qui",
+      "rate": 2.917,
+      "price": 83,
+      "brands": 2,
+      "category": 6
+    }
+  ],
+  "Brands": [
+    {
+      "parentCategory": 6,
+      "brands": [
+        {
+          "id": 1,
+          "name": "Баленсиага"
+        },
+        {
+          "id": 2,
+          "name": "Пожилая дольче"
+        },
+        {
+          "id": 3,
+          "name": "Пожилой левайс"
+        },
+        {
+          "id": 4,
+          "name": "Пожилой гучи"
+        }
+      ]
+    }
+  ],
+  "ProductPages": [
+    {
+      "id": 1,
+      "fullDescription": [
+        {
+          "title": "Coll Title",
+          "body": "body of title cool super budy"
+        },
+        {
+          "title": "sma",
+          "body": "Bbiibibibibibibi"
+        }
+      ],
+      "params": [
+        {
+          "title": "medium",
+          "description": "76666"
+        },
+        {
+          "title": "sma",
+          "description": "Bbiibibibibibibi"
+        },
+        {
+          "title": "jujuju",
+          "description": "gagagagagagag"
+        },
+        {
+          "title": "lululullulu",
+          "description": "fufufufufu"
+        }
+      ],
+      "reviews": [
+        {
+          "creatorId": "asdasdasd",
+          "rate": 5,
+          "body": "asdsadsad"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "productsIds": [],
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "nikkap2001@mail.ru",
+      "password": "$2a$10$MZ5T7JQR5wzFa09x0QvuyuSjEiBgR8ypnzWewcurJz7HyECQSs/Hi",
+      "birthDate": "",
+      "firstName": "",
+      "secondName": "",
+      "phone": "",
+      "addressBook": [
+        {
+          "id": 0,
+          "address": {
+            "city": "Железногорск",
+            "street": "ул 22 Партсъезда",
+            "house": "21",
+            "floor": "",
+            "apartment": "",
+            "entrance": "",
+            "isActive": true
+          }
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

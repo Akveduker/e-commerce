@@ -1,0 +1,10 @@
+@import "../../../styles/_mixins.scss";
+.button {
+    @include buttonWithBorder;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    svg {
+        margin-right: 6px;
+    }
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GreenLink Класс меняется, снапшот 1`] = `
+<div>
+  <a
+    class="link link__underline"
+    href="/"
+  >
+    link
+  </a>
+</div>
+`;
+
+exports[`GreenLink Снапшот 1`] = `
+<div>
+  <a
+    class="link"
+    href="/"
+  >
+    link
+  </a>
+</div>
+`;

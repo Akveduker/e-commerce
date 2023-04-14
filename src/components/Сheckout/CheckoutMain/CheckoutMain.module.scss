@@ -1,0 +1,11 @@
+@import "../../../styles/_mixins.scss";
+.container {
+    @include container;
+    margin: 50px auto;
+    min-height: 400px;
+}
+@media (max-width: 550px) {
+    .container {
+        margin: 20px auto 50px;
+    }
+}

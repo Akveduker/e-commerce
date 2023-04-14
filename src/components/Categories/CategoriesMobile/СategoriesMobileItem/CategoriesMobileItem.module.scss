@@ -1,0 +1,21 @@
+@import "../../../../styles/_mixins.scss";
+.item {
+    display: block;
+    width: 100%;
+    @include fontMedium;
+    font-size: 14px;
+    padding: 10px 0;
+    border: none;
+}
+.content {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    border-top: 1px solid $C1A;
+    &:last-child {
+        border-bottom: 1px solid $C1A;
+    }
+}

@@ -1,0 +1,9 @@
+@import "../../../styles/_mixins.scss";
+.container {
+    @include container;
+    margin-top: 50px;
+}
+.dashboard {
+    display: flex;
+    margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+.text {
+    margin-bottom: 32px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.description {
+    font-size: 14px;
+}
+.title {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,13 @@
+@import "../../../styles/_vars.scss";
+.container {
+    background-color: $C1H;
+    min-height: 500px;
+    width: 100%;
+    margin-left: 20px;
+    padding: 20px;
+    &--mobile {
+        margin-left: 0;
+        padding: 10px 0;
+        background-color: $C1J;
+    }
+}

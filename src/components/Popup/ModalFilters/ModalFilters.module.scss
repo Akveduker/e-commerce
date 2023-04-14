@@ -1,0 +1,10 @@
+@import "../../../styles/_vars.scss";
+.container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    background-color: rgba($color: $C1A, $alpha: 0.6);
+}

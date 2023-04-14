@@ -1,0 +1,8 @@
+@import "../../../../../styles/_mixins.scss";
+.title {
+    @include fontSemibold;
+}
+
+.input {
+    @include inputStyles;
+}

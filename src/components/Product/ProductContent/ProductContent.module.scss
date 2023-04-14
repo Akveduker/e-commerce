@@ -1,0 +1,11 @@
+@import "../../../styles/_mixins.scss";
+.page {
+    display: flex;
+    @include container;
+    &--mobile {
+        display: block;
+    }
+}
+.images {
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardPrice Со скидкой Снапшот 1`] = `
+<div>
+  <div
+    class="price"
+    data-testid="container"
+  >
+    <div>
+      <p
+        class="price__actual"
+        data-testid="old"
+      >
+        32
+         USD
+      </p>
+      <p
+        class="price__old"
+        data-testid="new"
+      >
+        40
+         USD
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardPrice без скидки Снапшот 1`] = `
+<div>
+  <div
+    class="price"
+    data-testid="container"
+  >
+    <div>
+      <p
+        class="price__actual"
+      >
+        40
+         USD
+      </p>
+    </div>
+  </div>
+</div>
+`;

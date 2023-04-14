@@ -1,0 +1,67 @@
+@import "../../../../../styles/_vars.scss";
+.card {
+    height: 279px;
+}
+.title {
+    background-color: $C1D;
+    height: 22px;
+}
+.description {
+    height: 17px;
+    background-color: $C1D;
+}
+.rating {
+    width: 106px;
+    height: 20px;
+    background-color: $C1D;
+}
+.fake-category {
+    width: 93px;
+    height: 20px;
+    background-color: $C1D;
+}
+.fake-data {
+    width: 64px;
+    height: 20px;
+    background-color: $C1D;
+}
+.price {
+    width: 80px;
+    height: 40px;
+    background-color: $C1D;
+}
+.shipping {
+    width: 91px;
+    height: 35px;
+    background-color: $C1D;
+}
+.button {
+    width: 174px;
+    height: 47px;
+    background-color: $C1D;
+}
+.img {
+    background-color: $C1D;
+}
+@media (max-width: 650px) {
+    .button {
+        height: 35px;
+        width: 145px;
+    }
+}
+@media (max-width: 460px) {
+    .button {
+        width: 76px;
+    }
+    .img {
+        background-color: transparent;
+        &__fake {
+            background-color: $C1D;
+            width: 100%;
+            height: 50%;
+        }
+    }
+    .card {
+        height: initial;
+    }
+}

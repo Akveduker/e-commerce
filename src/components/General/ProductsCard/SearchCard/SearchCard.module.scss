@@ -1,0 +1,29 @@
+@import "../../../../styles/_vars.scss";
+@import "../../../../styles/_mixins.scss";
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.img {
+    min-width: 50px;
+    min-height: 50px;
+    img {
+        display: block;
+        width: 100%;
+        border-radius: $borderRadius;
+    }
+}
+.content {
+    width: 100%;
+    margin-left: 20px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    padding: 3px 5px;
+    @include buttonWithBorder;
+}

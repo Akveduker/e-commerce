@@ -1,0 +1,18 @@
+@import "../../../styles/_mixins.scss";
+@import "../../../styles/_vars.scss";
+.section {
+    @include containerWithPadding;
+}
+.container {
+    margin-top: 32px;
+    display: flex;
+}
+.item {
+    width: 100%;
+    max-width: $cardMaxWidthV1;
+}
+@media (max-width: $breakpointSmall) {
+    .container {
+        margin-top: 15px;
+    }
+}

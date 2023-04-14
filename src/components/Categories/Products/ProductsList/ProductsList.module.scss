@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    margin-left: 34px;
+    &--mobile {
+        margin-left: 0;
+    }
+}
+.item {
+    margin-bottom: 32px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

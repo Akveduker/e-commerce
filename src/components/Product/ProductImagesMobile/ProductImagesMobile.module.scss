@@ -1,0 +1,10 @@
+@import "../../../styles/_vars.scss";
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bullet--active {
+    background-color: $C2B;
+    opacity: 1;
+}

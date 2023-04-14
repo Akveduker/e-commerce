@@ -1,0 +1,13 @@
+@import "../../../../styles/_vars.scss";
+.icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+    path {
+        stroke: $C2A;
+    }
+}
+.item {
+    width: initial;
+    margin-right: 32px;
+}

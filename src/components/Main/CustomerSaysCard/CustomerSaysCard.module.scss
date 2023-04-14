@@ -1,0 +1,33 @@
+@import "../../../styles/_vars.scss";
+@import "../../../styles/_mixins.scss";
+.card {
+    border-radius: $borderRadius;
+    padding: 24px 32px 40px;
+    border: 1px solid $C1F;
+    text-align: center;
+    max-width: 369px;
+    position: relative;
+    &__text {
+        max-width: 305px;
+        margin: 0;
+        @include fontMedium;
+        margin-bottom: 24px;
+    }
+    &__name {
+        font-size: 12px;
+        color: $C1C;
+        @include fontSemibold;
+        margin: 0;
+    }
+    &__icon {
+        width: 48px;
+        height: 48px;
+        background-color: $C1A;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -28px;
+        border-radius: 50%;
+    }
+}

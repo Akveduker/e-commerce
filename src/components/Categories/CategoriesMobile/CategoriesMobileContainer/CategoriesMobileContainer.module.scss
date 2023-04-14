@@ -1,0 +1,40 @@
+@import "../../../../styles/_mixins.scss";
+.container {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 9;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.back {
+    padding: 10px 0;
+    z-index: 9;
+    font-size: 16px;
+    @include fontMedium;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.icon {
+    margin-right: 10px;
+    transform: rotate(180deg);
+}
+
+.container-enter {
+    transform: translateX(-100%);
+}
+.container-enter-active {
+    transform: translateX(0);
+    transition: transform 500ms;
+}
+.container-exit {
+    transform: translateX(0);
+}
+.container-exit-active {
+    transform: translateX(-100%);
+    transition: transform 500ms;
+}

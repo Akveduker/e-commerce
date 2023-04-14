@@ -1,0 +1,11 @@
+@import "../../../styles/_mixins.scss";
+.item {
+    margin-bottom: 12px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.title {
+    @include fontSemibold;
+    margin-bottom: 16px;
+}

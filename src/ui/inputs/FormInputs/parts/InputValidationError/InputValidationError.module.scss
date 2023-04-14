@@ -1,0 +1,4 @@
+@import "../../../../../styles/_mixins.scss";
+.error {
+    @include authorizationError;
+}

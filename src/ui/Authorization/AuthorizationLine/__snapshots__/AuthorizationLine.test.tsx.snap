@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorizationLine Снапшот 1`] = `
+<div>
+  <p
+    class="line"
+  >
+    <span
+      class="text"
+    >
+      ИЛИ
+    </span>
+  </p>
+</div>
+`;

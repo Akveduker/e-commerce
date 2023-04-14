@@ -1,0 +1,1 @@
+export const stringFirstLetterUppercase = (string: string) => string.charAt(0).toLocaleUpperCase() + string.substring(1)

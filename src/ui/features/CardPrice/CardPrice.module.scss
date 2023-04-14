@@ -1,0 +1,36 @@
+@import "../../../styles/_mixins.scss";
+.price {
+    &__old {
+        margin: 0;
+        display: inline-block;
+        font-size: 12px;
+        @include fontSemibold;
+        position: relative;
+        color: $C1C;
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: $C1C;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+        }
+    }
+    &__green {
+        color: $C2A;
+    }
+    &__big {
+        .price__actual {
+            font-size: 26px;
+        }
+    }
+    &__actual {
+        margin: 0;
+        font-size: 18px;
+        @include fontSemibold;
+        line-height: 1.1;
+    }
+}

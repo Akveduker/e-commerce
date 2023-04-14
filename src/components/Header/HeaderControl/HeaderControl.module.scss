@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    &--mobile {
+        padding: 20px 0;
+        display: block;
+        .search {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+    }
+}
+.logo--mobile {
+    margin-bottom: 20px;
+}
+.section {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-right: 40px;
+}
+.search {
+    &--mobile {
+        width: 100%;
+        max-width: 100%;
+    }
+    max-width: 50%;
+    width: 100%;
+}

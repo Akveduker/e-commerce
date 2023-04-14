@@ -1,0 +1,12 @@
+@import "../../styles/_mixins.scss";
+.footer {
+    @include container;
+    justify-self: flex-end;
+    margin-top: 64px;
+}
+@media (max-width: $breakpointSmall) {
+    .footer {
+        margin-top: 20px;
+        padding: 0;
+    }
+}

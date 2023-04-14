@@ -1,0 +1,74 @@
+@import "../../../../styles/_vars.scss";
+@import "../../../../styles/_mixins.scss";
+.card {
+    padding: 16px;
+    border: 1px solid $C1D;
+    border-radius: $borderRadius;
+    max-width: 269px;
+    &__img {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        background-color: $C1D;
+        min-height: 177px;
+        background-color: $C1D;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__title {
+        margin-top: 16px;
+    }
+    &__description {
+        max-width: 269px;
+        font-size: 12px;
+        @include fontRegular;
+        color: $C1B;
+        margin: 4px 0 16px;
+    }
+    &__price {
+        margin: 0;
+        font-size: 18px;
+        @include fontSemibold;
+        line-height: 1.1;
+    }
+    &__price-new {
+        margin: 0;
+        display: inline-block;
+        font-size: 12px;
+        @include fontSemibold;
+        position: relative;
+        color: $C1C;
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: $C1C;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+        }
+    }
+    &__tag {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+    }
+    &__loading {
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+    }
+}
+.img-container {
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+@import "../../../styles/_mixins.scss";
+.container {
+    width: 100%;
+    @include inputStyles;
+    position: relative;
+    &--active {
+        border-radius: $borderRadius $borderRadius 0 0;
+    }
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.clear {
+    font-size: 15px;
+    margin-right: 10px;
+}
+.input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.body {
+    left: -1px;
+    top: 45px;
+    z-index: 5;
+    width: 100%;
+    background-color: $C1H;
+    min-height: 50px;
+    max-height: 300px;
+    position: absolute;
+    border: 1px solid $C1D;
+    border-top: none;
+    box-sizing: content-box;
+    border-radius: 0 0 $borderRadius $borderRadius;
+    overflow-y: auto;
+}
+.item {
+    margin: 11px 21px;
+}
+.empty {
+    font-size: 24px;
+    text-align: center;
+}

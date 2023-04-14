@@ -1,0 +1,26 @@
+@import "../../../styles/_vars.scss";
+.container {
+    display: flex;
+    align-items: center;
+    background-color: $C1H;
+    border-radius: $borderRadius;
+    border: 1px $C1D solid;
+    padding: 12.5px 14px;
+    font-size: 14px;
+    max-width: 111px;
+    &__small {
+        padding: 6.5px 6px;
+    }
+}
+.button {
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+.input {
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: $C1H;
+    font-size: inherit;
+}

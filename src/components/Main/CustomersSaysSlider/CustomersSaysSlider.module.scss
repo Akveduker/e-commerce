@@ -1,0 +1,63 @@
+@import "../../../styles/_vars.scss";
+.slide {
+    max-width: 369px;
+}
+.container {
+    position: relative;
+}
+.slider {
+    position: relative;
+    padding: 0 0 10px !important;
+
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+        opacity: 0.7;
+        top: 0;
+        z-index: 4;
+        max-width: 88px;
+    }
+    &::before {
+        right: 0;
+        transform: rotate(180deg);
+    }
+    &::after {
+        left: 0;
+    }
+    &__left,
+    &__right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 32px;
+        height: 48px;
+        background-color: $C1A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+    }
+    &__left {
+        left: 0;
+        border-radius: 0 12px 12px 0;
+    }
+    &__right {
+        border-radius: 12px 0 0 12px;
+        right: 0;
+    }
+}
+.icon {
+    transform: rotate(180deg);
+}
+.fake {
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

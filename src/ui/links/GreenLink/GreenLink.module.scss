@@ -1,0 +1,13 @@
+@import "../../../styles/_vars.scss";
+.link {
+    font-size: inherit;
+    color: $C2A;
+    transition: $linkTranstion;
+    text-decoration: none;
+    &:hover {
+        color: $C2C;
+    }
+    &__underline {
+        text-decoration: underline;
+    }
+}

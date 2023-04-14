@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadRecipeButton Снапшот 1`] = `
+<div>
+  <a
+    class="button"
+    href="/"
+  >
+    Посмотреть рецепты
+    <svg
+      class="icon"
+      fill="none"
+      height="17"
+      viewBox="0 0 17 17"
+      width="17"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.0332 11.6867L9.7732 8.94669C9.89737 8.82178 9.96706 8.65281 9.96706 8.47669C9.96706 8.30056 9.89737 8.13159 9.7732 8.00669L7.10654 5.34002"
+        stroke="#151515"
+        stroke-linecap="round"
+        stroke-linejoin="bevel"
+        stroke-width="2.5"
+      />
+    </svg>
+  </a>
+</div>
+`;

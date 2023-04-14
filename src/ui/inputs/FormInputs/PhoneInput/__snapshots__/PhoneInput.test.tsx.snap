@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneInput Только инпут с маской,снапшот 1`] = `
+<div>
+  <label>
+    <p
+      class="name"
+    >
+      title
+    </p>
+    <label
+      class="with-children container"
+      data-testid="label"
+    >
+      <input
+        class="with-children__input"
+        type="text"
+        value=""
+      />
+      <div
+        class="with-children__children"
+      >
+        <div />
+      </div>
+    </label>
+    <div />
+  </label>
+</div>
+`;
