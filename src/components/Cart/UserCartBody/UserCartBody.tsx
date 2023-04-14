@@ -37,7 +37,7 @@ const UserCartBody = () => {
             <div className={s['checkout']}>
                 <div className={s['checkout__wrapper']}>
                     <p className={s['checkout__continue']}>Продолжить покупки</p>
-                    <Link to={`${roots.main}${roots.chekout}`} className={s['checkout__link']}>
+                    <Link to={`/${roots.main}/${roots.chekout}`} className={s['checkout__link']}>
                         К оплате
                     </Link>
                 </div>

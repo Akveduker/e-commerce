@@ -20,7 +20,7 @@ const CategoriesSubListPrev: FC<CategoriesSubListPrevProps> = ({ prevId, current
         <div>
             {categoryPrev &&
                 <div>
-                    <Link to={`${roots.main}${roots.categories}/${categoryPrev.id}`} className={`${listItemS['link']} ${s['prev']}`}>
+                    <Link to={`/${roots.main}/${roots.categories}/${categoryPrev.id}`} className={`${listItemS['link']} ${s['prev']}`}>
                         <ArrowRight className={s['icon']} />
                         {categoryPrev.name}
                     </Link>

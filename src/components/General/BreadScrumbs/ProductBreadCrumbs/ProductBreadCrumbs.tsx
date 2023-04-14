@@ -7,7 +7,7 @@ const ProductBreadCrumbs = () => {
     const arr = useCreateArrForProducts()
     arr.unshift({
         title: 'Categories',
-        url: `${roots.main}${roots.categories}`
+        url: `/${roots.main}/${roots.categories}`
     })
     return (
         <RenderBreadCrumbs

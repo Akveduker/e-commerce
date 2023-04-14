@@ -16,7 +16,7 @@ const SearchCard: FC<searchCardProps> = ({ cardId, setIsActive }) => {
     useEffect(() => {
         fetchCallback()
     }, [])
-    if (!item) return <></>
+    if (!item) return null
     const { title, price, discount } = item
     return (
         <div className={s['card']}>
@@ -31,7 +31,7 @@ const SearchCard: FC<searchCardProps> = ({ cardId, setIsActive }) => {
                         discount={discount}
                     />
 
-                    <Link to={`${roots.main}${roots.product}/${cardId}`} className={s['link']} onClick={() => setIsActive(false)}>
+                    <Link to={`/${roots.main}/${roots.product}/${cardId}`} className={s['link']} onClick={() => setIsActive(false)}>
                         to card
                     </Link>
                 </div>

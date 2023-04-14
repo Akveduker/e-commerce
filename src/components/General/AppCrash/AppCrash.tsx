@@ -8,7 +8,7 @@ import s from './AppCrash.module.scss'
 const AppCrash: FC<FallbackProps> = ({ error, resetErrorBoundary }) => {
     const navigate = useNavigate();
     const refreshPage = () => {
-        navigate(roots.main)
+        navigate(`/${roots.main}/`)
         navigate(0);
     }
     return (

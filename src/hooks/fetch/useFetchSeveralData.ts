@@ -10,10 +10,19 @@ export const useFetchSeveralData = <T extends any[]>(endpointArr: string[], fetc
             setStatus({ type: STATUS_LOADING })
             const response = await Promise.all(endpointArr.map((enpoint, index) => {
                 if (body) {
-                    return fetch(enpoint, body[index])
+                    return fetch(enpoint, {
+                        headers: {
+                            "ngrok-skip-browser-warning": "true",
+                        },
+                        ...body[index]
+                    })
                 }
                 else {
-                    return fetch(enpoint)
+                    return fetch(enpoint, {
+                        headers: {
+                            "ngrok-skip-browser-warning": "true",
+                        }
+                    })
                 }
             }))
             response.forEach(result => {

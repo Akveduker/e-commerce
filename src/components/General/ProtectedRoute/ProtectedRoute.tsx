@@ -10,7 +10,7 @@ const ProtectedRoute = () => {
         accessToken ?
             <Outlet />
             :
-            <Navigate to={`${roots.main}${roots.authorization}`} state={{ from: location }} />
+            <Navigate to={`/${roots.main}/${roots.authorization}`} state={{ from: location }} />
     );
 };
 
