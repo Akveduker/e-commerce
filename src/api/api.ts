@@ -25,7 +25,7 @@ class Api {
     changeCartItemEndpoint = (id: number) => `${this.endpoint}/600/cart/${id}`
 }
 const api = new Api({
-    endpoint: 'https://950d-62-84-127-190.ngrok-free.app'
+    endpoint: 'https://3254-62-84-127-190.ngrok-free.app'
 })
 export const {
     allCategoriesEndpoint,
