@@ -9,10 +9,10 @@ const ProductReviews: FC = () => {
         <div>
             {reviews.map(review => {
                 return (
-                    <div key={review.creatorId} className={s['review']}>
+                    <div key={review.creatorName} className={s['review']}>
                         <div className={s['review__user']}>
                             <span className={s['review__icon']}></span>
-                            {review.creatorId}
+                            {review.creatorName}
                         </div>
                         <StarRating
                             rate={review.rate}

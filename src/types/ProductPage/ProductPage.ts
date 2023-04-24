@@ -14,7 +14,7 @@ export interface IProductPageParams {
     description: string;
 }
 export interface IProductPageReview {
-    creatorId: number;
+    creatorName: number;
     rate: number;
     body: string;
 }
