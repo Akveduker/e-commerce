@@ -1,8 +1,6 @@
 Учебный проект интернет магазина с использование стека react, redux, typescript, scss modules, jest
 ========================
 
-#### Лайв версия проекта: https://akveduker.github.io/e-commerce/
-
 ДЛЯ РАБОТЫ ДЕВ ВЕРСИИ НУЖНЫ УСТАНОВЛЕННЫЕ ГЛОБАЛЬНО json-server и json-server-auth
 
 #### Рабочие руты
